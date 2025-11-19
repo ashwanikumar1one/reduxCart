@@ -1,0 +1,41 @@
+.button {
+  background: transparent;
+  /* border: 1px solid aqua; */
+  cursor: pointer;
+  /* color: aqua; */
+  padding: 12px 35px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Tablets and below */
+@media (max-width: 768px) {
+  .button {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 28px;
+  }
+}
+
+/* Small phones */
+
+@media (max-width: 480px) {
+  .header button {
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+}
